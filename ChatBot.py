@@ -3,35 +3,35 @@ Date: 13 May 2023
 
 
 # Use the openai library
-import 📚📚📚📚📚📚
+import 📚
 
 # Set the API key
-openai.api_key = ⚿⚿⚿⚿⚿⚿
+openai.api_key = ⚿
 
 # Gets input from user
 def getMessage():
-    theMessage = ⌨⌨⌨⌨⌨⌨('You: ')
+    theMessage = ⌨('You: ')
     return theMessage
 
 # Gets response from chatbot
 def getReply(message):
-    💾💾💾💾💾💾 = openai.Completion.create(
+    💾 = openai.Completion.create(
         model = 'text-davinci-003',
         prompt = message,
     )
-    return 💾💾💾💾💾💾.choices[0].text.strip()
+    return 💾.choices[0].text.strip()
 
 # Repeatedly gets input and gets responses
 def main():
-    while 🚩🚩🚩🚩🚩🚩:
-        message = 📞📞📞📞📞📞
+    while 🚩:
+        message = 📞
         reply = ''
-        if ✉✉✉✉✉✉ == 👋👋👋👋👋👋:
+        if ✉✉✉✉✉✉ == 👋:
             print('Bot:', 'Bye!')
             break
         else:
             reply = getReply(message)
-            🖶🖶🖶🖶🖶🖶('Bot:', reply)
+            🖶('Bot:', reply)
 
 # Run the main program
 main()           
