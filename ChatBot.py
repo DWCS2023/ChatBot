@@ -26,7 +26,7 @@ def main():
     while 🚩:
         message = 📞
         reply = ''
-        if ✉✉✉✉✉✉ == 👋:
+        if ✉ == 👋:
             print('Bot:', 'Bye!')
             break
         else:
